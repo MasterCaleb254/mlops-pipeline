@@ -51,7 +51,7 @@ def train():
     with open("models/best_model.txt", "w") as f:
         f.write(best_model)
     with open("models/metrics.json", "w") as f:
-        json.dump(results, indent=2)
+        json.dump(results, f, indent=2)
     
     print(f"\nBest model: {best_model} (F1: {best_f1:.4f})")
 
