@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+models/*.pkl
+models/best_model.txt
+models/metrics.json
