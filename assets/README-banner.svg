@@ -1,0 +1,67 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#102845"/>
+      <stop offset="1" stop-color="#1f6f8b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="260" y1="94" x2="1300" y2="426" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ee8fa"/>
+      <stop offset="0.5" stop-color="#f9f871"/>
+      <stop offset="1" stop-color="#b8ffcb"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1600" height="520" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="36" fill="url(#bg)"/>
+  <circle cx="270" cy="118" r="150" fill="#0ea5e9" opacity="0.18" filter="url(#blur)"/>
+  <circle cx="1280" cy="108" r="180" fill="#facc15" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="1210" cy="380" r="200" fill="#22c55e" opacity="0.16" filter="url(#blur)"/>
+
+  <g opacity="0.9">
+    <rect x="92" y="84" width="250" height="350" rx="28" fill="#0b1b31" stroke="#d8f3ff" stroke-opacity="0.16"/>
+    <rect x="122" y="118" width="190" height="18" rx="9" fill="#7ee8fa"/>
+    <rect x="122" y="154" width="146" height="10" rx="5" fill="#dbeafe" fill-opacity="0.75"/>
+    <rect x="122" y="184" width="132" height="10" rx="5" fill="#dbeafe" fill-opacity="0.45"/>
+    <rect x="122" y="234" width="190" height="108" rx="20" fill="#111f35" stroke="#d8f3ff" stroke-opacity="0.16"/>
+    <path d="M148 318L184 292L220 303L256 248L292 262" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="148" cy="318" r="8" fill="#f9f871"/>
+    <circle cx="184" cy="292" r="8" fill="#7ee8fa"/>
+    <circle cx="220" cy="303" r="8" fill="#b8ffcb"/>
+    <circle cx="256" cy="248" r="8" fill="#f9f871"/>
+    <circle cx="292" cy="262" r="8" fill="#7ee8fa"/>
+  </g>
+
+  <g>
+    <text x="410" y="144" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">MLOPS PIPELINE</text>
+    <text x="410" y="236" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="800">Customer Churn</text>
+    <text x="410" y="316" fill="#dbeafe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="800">Prediction System</text>
+    <text x="410" y="388" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">Data ingestion • Validation • Preprocessing • Training • Deployment</text>
+  </g>
+
+  <g transform="translate(1084 122)">
+    <rect width="370" height="280" rx="28" fill="#07111f" fill-opacity="0.82" stroke="#d8f3ff" stroke-opacity="0.14"/>
+    <g fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+      <text x="28" y="48">Pipeline Stages</text>
+    </g>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">
+      <rect x="28" y="72" width="314" height="34" rx="17" fill="#0f223d"/>
+      <text x="48" y="95" fill="#7ee8fa">01</text>
+      <text x="106" y="95" fill="#e2e8f0">Ingest raw data</text>
+
+      <rect x="28" y="118" width="314" height="34" rx="17" fill="#102845"/>
+      <text x="48" y="141" fill="#f9f871">02</text>
+      <text x="106" y="141" fill="#e2e8f0">Validate & clean</text>
+
+      <rect x="28" y="164" width="314" height="34" rx="17" fill="#0f223d"/>
+      <text x="48" y="187" fill="#b8ffcb">03</text>
+      <text x="106" y="187" fill="#e2e8f0">Encode & scale</text>
+
+      <rect x="28" y="210" width="314" height="34" rx="17" fill="#102845"/>
+      <text x="48" y="233" fill="#7ee8fa">04</text>
+      <text x="106" y="233" fill="#e2e8f0">Train, score, ship</text>
+    </g>
+  </g>
+</svg>
